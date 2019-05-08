@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButton"
+        android:hint="Saber curiosidade"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/colorText"
+        android:textSize="18dp"
+        android:id="@+id/btnCuriosidade"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@color/colorAzul1">
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAzul2">
+            </View>
+
+            <View
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAzul3">
+            </View>
+
+            <View
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAzul4">
+            </View>
+
+            <View
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAzul5">
+            </View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:background="@color/colorAzul6">
+                </View>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:background="@color/colorAzul7">
+                </View>
+            </LinearLayout>
+
+            <View
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAzul3">
+            </View>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAzul8">
+        </View>
+    </LinearLayout>
+
+</LinearLayout>
